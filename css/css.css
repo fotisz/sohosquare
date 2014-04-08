@@ -1,0 +1,369 @@
+body {
+	margin: 0;
+	min-width: 980px;
+	padding: 0
+}
+li {
+	list-style: none;
+	margin: 0 0 5px 0
+}
+#cred li {
+	list-style: none;
+	margin: 0 0 20px 0;
+	font-size: 24px
+}
+a {
+	font-family: Courier,monotype;
+	color: #333;
+	padding: 0;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out
+}
+a: hover {
+	padding-left: 10px
+}
+p {
+	margin: 0 0 20px 0
+}
+p,ul {
+	font-family: Courier,monotype;
+	font-size: 16px;
+	line-height: 19px;
+	font-style: normal
+}
+img {
+	border: 0
+}
+.float-left {
+	float: left;
+	margin: 0;
+	z-index: 50
+}
+.float-left-end {
+	z-index: 1;
+	margin-left: 100px;
+	position: absolute
+}
+.float-right {
+	float: right;
+	margin: 0;
+	z-index: 50
+}
+.center {
+	font-size: 2.5em;
+	padding: 80px 0;
+	text-align: center
+}
+#nav {
+	list-style: none;
+	position: fixed;
+	right: 20px;
+	z-index: 10
+}
+#nav a {
+	color: #333;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out
+}
+#nav a: hover {
+	padding-right: 10px
+}
+#nav li {
+	margin: 0 0 5px 0;
+	text-align: right
+}
+.navbar {
+	display: none
+}
+#header,#one,#two {
+	width: 100%
+}
+#one {
+	color: white;
+	height: 1800px;
+	margin: 0;
+	padding: 0
+}
+#one .bg {
+	background: url(img/sogosq_logo.gif) 50% 50% no-repeat fixed;
+	height: 1800px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 900px;
+	z-index: 1
+}
+#two {
+	background: url(img/green1.png) 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#two .bg {
+	background: url(img/wpp.png) 50% 0 no-repeat fixed;
+	height: 1800px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 2
+}
+#three {
+	background: url(img/xerox1.jpg) 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#four {
+	background: url(img/xerox2.jpg) 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#four .bg {
+	background: url(img/orange.jpg) 50% 0 no-repeat fixed;
+	height: 1800px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 2
+}
+#five {
+	background: url(img/xerox3.png) 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#five .bg {
+	background: url(img/orange.png) 50% 0 no-repeat fixed;
+	height: 1800px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 2
+}
+#six {
+	background: #f90;
+	color: #333;
+	height: 1800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#seven {
+	background: url(img/green2.png) 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#seven .bg {
+	background: 50% 0 no-repeat fixed;
+	height: 1800px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 2
+}
+#eight {
+	background: 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#eight .bg2 {
+	background: 50% 0 no-repeat fixed;
+	height: 1800px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 3
+}
+#nine {
+	background: 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+@media only screen and (max-width: 1900px) and (max-height: 1200px) {
+	#one {
+	color: white;
+	height: 1200px;
+	margin: 0;
+	padding: 0
+}
+#one .bg {
+	background: url(img/sogosq_logo.gif) 50% 50% no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 900px;
+	z-index: 1
+}
+#two {
+	background: url(img/green1.png) 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#two .bg {
+	background: url(img/wpp.png) 50% 0 no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 2
+}
+#three {
+	background: url(img/xerox1.jpg) 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#four {
+	background: url(img/xerox2.jpg) 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#four .bg {
+	background: url(img/orange.jpg) 50% 0 no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 2
+}
+#five {
+	background: url(img/xerox3.png) 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#five .bg {
+	background: url(img/orange.png) 50% 0 no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 2
+}
+#six {
+	background: #f90;
+	color: #333;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#seven {
+	background: url(img/green2.png) 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#seven .bg {
+	background: 50% 0 no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 2
+}
+#eight {
+	background: 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#eight .bg2 {
+	background: 50% 0 no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 3
+}
+#nine {
+	background: 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+
+}
+.story {
+	margin: 0 auto;
+	min-width: 980px;
+	width: 980px
+}
+.story .float-left,.story .float-right,.story .two-text {
+	padding: 200px 0 0 0;
+	position: relative;
+	width: 450px
+}
+.float-center-w {
+	padding: 200px 0 0 180px;
+	color: white
+}
+.float-center-v {
+	padding: 200px 0 0 100px
+}
+.float-left-clients {
+	float: left;
+	margin: 0;
+	z-index: 50;
+	padding: 200px 0 0 0;
+	position: relative;
+	width: 980px
+}
+.client-box {
+	float: left;
+	margin: 0
+}
+.clients {
+	height: 960px;
+	width: 920px;
+	background-color: white
+}
