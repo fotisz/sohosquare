@@ -10,11 +10,11 @@ function initialize() {
               navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
               mapTypeId: google.maps.MapTypeId.ROADMAP };
 
-  var map = new google.maps.Map(document.getElementById(&quot;map_canvas&quot;), settings);
+  var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
 
   var companyPos = new google.maps.LatLng(38.073349,23.792846);
 
-  var companyLogo = new google.maps.MarkerImage(&#39;https://lh6.googleusercontent.com/-pl9DNj2qin4/USHEsniarHI/AAAAAAAAHGA/peJk1Y0KoCY/s128/1.png&#39;,
+  var companyLogo = new google.maps.MarkerImage('https://lh6.googleusercontent.com/-pl9DNj2qin4/USHEsniarHI/AAAAAAAAHGA/peJk1Y0KoCY/s128/1.png',
       new google.maps.Size(88,88),
       new google.maps.Point(0,0),
       new google.maps.Point(44,88)
@@ -24,16 +24,16 @@ function initialize() {
       position: companyPos,
       map: map,
       icon: companyLogo,
-      title:&quot;Sohosquare&quot;
+      title:"Sohosquare"
   });
 
-  var contentString = &quot;000&quot;
+  var contentString = "000"
 
   var infowindow = new google.maps.InfoWindow({
       content: contentString
   });
 
-  google.maps.event.addListener(companyMarker, &#39;click&#39;, function() {
+  google.maps.event.addListener(companyMarker, 'click', function() {
                       infowindow.open(map,companyMarker);
                   });
   }
