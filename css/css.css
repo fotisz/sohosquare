@@ -89,7 +89,7 @@ img {
 	padding: 0
 }
 #one .bg {
-	background: url(img/sogosq_logo.gif) 50% 50% no-repeat fixed;
+	background: url(../img/sogosq_logo.gif) 50% 50% no-repeat fixed;
 	height: 1800px;
 	margin: 0 auto;
 	padding: 0;
@@ -98,7 +98,7 @@ img {
 	z-index: 1
 }
 #two {
-	background: url(img/green1.png) 50% 0 no-repeat fixed;
+	background: url(../img/green1.png) 50% 0 no-repeat fixed;
 	color: #333;
 	height: 1800px;
 	margin: 0 auto;
@@ -106,7 +106,7 @@ img {
 	padding: 0
 }
 #two .bg {
-	background: url(img/wpp.png) 50% 0 no-repeat fixed;
+	background: url(../img/wpp.png) 50% 0 no-repeat fixed;
 	height: 1800px;
 	margin: 0 auto;
 	padding: 0;
@@ -115,7 +115,7 @@ img {
 	z-index: 2
 }
 #three {
-	background: url(img/xerox1.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/xerox1.jpg) 50% 0 no-repeat fixed;
 	color: #333;
 	height: 1800px;
 	margin: 0 auto;
@@ -123,7 +123,7 @@ img {
 	padding: 0
 }
 #four {
-	background: url(img/xerox2.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/xerox2.jpg) 50% 0 no-repeat fixed;
 	color: #333;
 	height: 1800px;
 	margin: 0 auto;
@@ -131,7 +131,7 @@ img {
 	padding: 0
 }
 #four .bg {
-	background: url(img/orange.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/orange.jpg) 50% 0 no-repeat fixed;
 	height: 1800px;
 	margin: 0 auto;
 	padding: 0;
@@ -140,7 +140,7 @@ img {
 	z-index: 2
 }
 #five {
-	background: url(img/xerox3.png) 50% 0 no-repeat fixed;
+	background: url(../img/xerox3.png) 50% 0 no-repeat fixed;
 	color: #333;
 	height: 1800px;
 	margin: 0 auto;
@@ -148,7 +148,7 @@ img {
 	padding: 0
 }
 #five .bg {
-	background: url(img/orange.png) 50% 0 no-repeat fixed;
+	background: url(../img/orange.png) 50% 0 no-repeat fixed;
 	height: 1800px;
 	margin: 0 auto;
 	padding: 0;
@@ -165,7 +165,7 @@ img {
 	padding: 0
 }
 #seven {
-	background: url(img/green2.png) 50% 0 no-repeat fixed;
+	background: url(../img/green2.png) 50% 0 no-repeat fixed;
 	color: #333;
 	height: 1800px;
 	margin: 0 auto;
@@ -214,7 +214,7 @@ img {
 	padding: 0
 }
 #one .bg {
-	background: url(img/sogosq_logo.gif) 50% 50% no-repeat fixed;
+	background: url(../img/sogosq_logo.gif) 50% 50% no-repeat fixed;
 	height: 1200px;
 	margin: 0 auto;
 	padding: 0;
@@ -223,7 +223,7 @@ img {
 	z-index: 1
 }
 #two {
-	background: url(img/green1.png) 50% 0 no-repeat fixed;
+	background: url(../img/green1.png) 50% 0 no-repeat fixed;
 	color: #333;
 	height: 1200px;
 	margin: 0 auto;
@@ -231,7 +231,7 @@ img {
 	padding: 0
 }
 #two .bg {
-	background: url(img/wpp.png) 50% 0 no-repeat fixed;
+	background: url(../img/wpp.png) 50% 0 no-repeat fixed;
 	height: 1200px;
 	margin: 0 auto;
 	padding: 0;
@@ -240,7 +240,7 @@ img {
 	z-index: 2
 }
 #three {
-	background: url(img/xerox1.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/xerox1.jpg) 50% 0 no-repeat fixed;
 	color: #333;
 	height: 1200px;
 	margin: 0 auto;
@@ -248,7 +248,7 @@ img {
 	padding: 0
 }
 #four {
-	background: url(img/xerox2.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/xerox2.jpg) 50% 0 no-repeat fixed;
 	color: #333;
 	height: 1200px;
 	margin: 0 auto;
@@ -256,7 +256,7 @@ img {
 	padding: 0
 }
 #four .bg {
-	background: url(img/orange.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/orange.jpg) 50% 0 no-repeat fixed;
 	height: 1200px;
 	margin: 0 auto;
 	padding: 0;
@@ -265,7 +265,7 @@ img {
 	z-index: 2
 }
 #five {
-	background: url(img/xerox3.png) 50% 0 no-repeat fixed;
+	background: url(../img/xerox3.png) 50% 0 no-repeat fixed;
 	color: #333;
 	height: 1200px;
 	margin: 0 auto;
@@ -273,7 +273,7 @@ img {
 	padding: 0
 }
 #five .bg {
-	background: url(img/orange.png) 50% 0 no-repeat fixed;
+	background: url(../img/orange.png) 50% 0 no-repeat fixed;
 	height: 1200px;
 	margin: 0 auto;
 	padding: 0;
@@ -290,7 +290,7 @@ img {
 	padding: 0
 }
 #seven {
-	background: url(img/green2.png) 50% 0 no-repeat fixed;
+	background: url(../img/green2.png) 50% 0 no-repeat fixed;
 	color: #333;
 	height: 1200px;
 	margin: 0 auto;
