@@ -24,7 +24,7 @@ $(document).ready(function () {
 	var s = $("#twelth .bg");
 	var i = $("#one .bg");
 	var j = n.height();
-	$("#one, #two, #three, #four, #five, #six, #seven, #eight, #nine").bind("inview", function (D, E) {
+	$("#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #tenth, #eleventh, #twelth, #end").bind("inview", function (D, E) {
 		if (E == true) {
 			$(this).addClass("inview")
 		} else {
