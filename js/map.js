@@ -14,7 +14,7 @@ function initialize() {
 
   var companyPos = new google.maps.LatLng(38.073349,23.792846);
 
-  var companyLogo = new google.maps.MarkerImage('../sohosquare.png',
+  var companyLogo = new google.maps.MarkerImage('../img/sohosquare.png',
       new google.maps.Size(88,88),
       new google.maps.Point(0,0),
       new google.maps.Point(44,88)
